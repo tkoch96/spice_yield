@@ -1,3 +1,9 @@
+# Thomas Koch
+# a script used to calculate the yield of our design, and generate figures of 
+# spreads of cutoff frequency and stop-band attenuation values
+# usage: python spice_parser.py
+# assumes the output of the ltspice simulation ('proj1p4.txt') is in the same
+# directory and in a very particular format determined by ltspice 
 import numpy as np
 import matplotlib.pyplot as plt
 fs = []
